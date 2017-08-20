@@ -1,0 +1,245 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "font-awesome";
+
+.nopadding {
+  padding-left: 0px !important;
+}
+
+.nopaddingall {
+  padding: 0px !important;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.myfirstpart {
+  ul.mytopmenu {
+    li {
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        padding: 10px;
+        color: #373737;
+        text-transform: capitalize;
+        font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      a:hover {
+        color: #329af3;
+      }
+    }
+
+  }
+
+}
+
+.theimagepart {
+  background-image: url("../img/cow.jpg");
+  background-size: cover;
+  min-height: 400px;
+  background-position: center;
+
+  h1 {
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  p {
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 40px;
+  }
+  a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+}
+
+.catimages {
+  text-align: center;
+  .caticon {
+    background-image: url("../img/category-icons.svg");
+    background-repeat: no-repeat;
+    height: 41px;
+  }
+  .caticon:hover {
+    background-position-y: -40px;
+  }
+  .row div:first-child {
+    .caticon {
+      width: 23px;
+      margin: 0 auto;
+      background-position-x: -51px;
+    }
+
+  }
+
+  .row div:nth-child(2) {
+    .caticon {
+      width: 23px;
+      margin: 0 auto;
+      background-position-x: -219px;
+    }
+
+  }
+  .row div:nth-child(3) {
+    .caticon {
+      width: 35px;
+      margin: 0 auto;
+      background-position-x: -172px;
+    }
+
+  }
+  .row div:nth-child(4) {
+    .caticon {
+      width: 40px;
+      margin: 0 auto;
+      background-position-x: -126px;
+    }
+
+  }
+  .row div:nth-child(5) {
+    .caticon {
+      width: 40px;
+      margin: 0 auto;
+      background-position-x: -86px;
+    }
+
+  }
+  .row div:nth-child(6) {
+    .caticon {
+      width: 40px;
+      margin: 0 auto;
+      background-position-x: -2px;
+    }
+
+  }
+  span {
+    text-decoration: none;
+    color: #373737;
+  }
+}
+
+.bighand {
+  background-color: #FAFAFA;
+  height: 800px;
+  background-image: url("../img/map.jpg");
+  background-position:  bottom;
+  background-size: cover;
+  background-position-x: -1000px;
+
+  .leftside img {
+    height: 100%;
+    width: 1024px;
+    margin-left: -630px;
+
+  }
+  .col-md-6 {
+    margin-top: 0px;
+  }
+  h1 {
+    color: #373737;
+    text-transform: capitalize;
+    padding-top: 186px;
+    text-align: left;
+    margin-left: -122px;
+  }
+  a {
+    color: #fabe08;
+  }
+  p {
+    margin-left: -122px;
+    color: #373737;
+
+  }
+
+  .rightsidea img {
+
+    height: 236px;
+    width: 265px;
+    margin-left: -122px;
+    padding-right: 30px;
+  }
+  .rightsideb img {
+
+    height: 236px;
+    width: 265px;
+    padding-left: 20px;
+  }
+  .rightsideb p {
+    text-align: right;
+  }
+}
+
+.baby {
+  background-color: #fafafa;
+  margin-top:10px;
+  height:550px;
+  background-image: url("../img/baby.jpg");
+  background-position:left;
+  background-size: cover;
+  background-position-x: -921px;
+
+}
+.mybottompart{
+  .col-md-6 img{
+    padding-bottom:35px;
+    padding-top:10px;
+    width:185px;
+
+  }
+  .form-control{
+    padding:20px;
+    margin-right:-4px;
+  }
+  .btn-default{
+    padding:10px;
+    margin-left:0px;
+    border:1px #000 solid;
+  }
+  .fa{
+    padding:20px 10px;
+  }
+  h5{
+    color:#979797;
+    padding-left:35px;
+  }
+  .myfootermenu {
+    list-style: none;
+  }
+a{
+  text-decoration: none;
+  color:#000;
+}
+  a:hover{
+    color:#ec971f;
+  }
+}
+.mysecondfooter{
+  background-color:rgb(55,55,55);
+  padding-left:50px;
+
+   li{
+    color:#fff;
+     padding-left:40px;
+     padding-top:10px;
+  }
+  p{
+    color:#979797;
+    padding-top:10px;
+  }
+}
+
+.custom-class {
+  li > a {
+    color: #979797;
+  } li > a:hover {
+    color: #979797;
+    text-decoration: none;
+  }
+}
