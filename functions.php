@@ -20,6 +20,7 @@ add_action( 'wp_enqueue_scripts', 'portfoliotheme_enqueue_script' );
 function portfolio_setup()
 {
     require 'resources/library/mylib.php';
+	require 'wp_bootstrap_navwalker.php'
 
     load_theme_textdomain('portfolio');
     add_theme_support('automatic-feed-links');
